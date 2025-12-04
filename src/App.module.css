@@ -1,0 +1,51 @@
+.menu{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    height:30vh;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+
+.menuIcon{
+    width: 50px;
+    height: auto;
+}
+
+.menuIcon:hover{
+    cursor: pointer;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.cadastro{
+    width: 137px;
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+}
+
+.cadastro p{
+    font-size: 12px;
+}
+
+.botoes{
+    display: inline-block;
+}
+
+.botoes img{
+    width: 50px;
+}
+
+.s1{
+    height: 50vh;
+    background-color: aqua;
+    gap: 20px;
+}
