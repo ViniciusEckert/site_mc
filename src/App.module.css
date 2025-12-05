@@ -1,16 +1,24 @@
 .menu{
     display: flex;
     width: 100%;
-    position: fixed;
-    height:30vh;
+    position: relative;
     align-items: center;
     justify-content: center;
-    background-color: azure;
+    gap: 20px;
+    height:10vh;
+    background-color: rgb(85, 85, 85);
+    z-index: 999;
+    
+}
+
+.left{
+    margin-right: 20%;
+    display: flex;
 }
 
 .menuIcon{
     width: 50px;
-    height: auto;
+    height: 65px;
 }
 
 .menuIcon:hover{
@@ -18,34 +26,19 @@
 }
 
 .logo{
-    width: 50px;
-    height: auto;
+    width: 100px;
 }
 
 .cadastro{
-    width: 137px;
-    height: 40px;
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
+    background-color: #ffbc0d;
     align-items: center;
-    padding: 4px 8px;
-}
-
-.cadastro p{
-    font-size: 12px;
-}
-
-.botoes{
-    display: inline-block;
-}
-
-.botoes img{
-    width: 50px;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 137px;
 }
 
 .s1{
-    height: 50vh;
-    background-color: aqua;
-    gap: 20px;
+    background-color: rgba(116, 116, 116, 0.219);
+    height: 100vh;
 }
